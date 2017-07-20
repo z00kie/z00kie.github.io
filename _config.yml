@@ -1,0 +1,21 @@
+# Site settings
+title: Code {z00kie}
+header-img: img/home-bg.png
+email: emmalinerosewhite@gmail.com
+copyright_name: z00kie
+description: > # this means to ignore newlines until "baseurl:"
+  From a Frightened Mouse to a Coding Warrior
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: _z00kie_
+github_username:  z00kie
+learn_profile: z00kie
+email_username: emmalinerosewhite@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
