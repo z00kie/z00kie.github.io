@@ -9,9 +9,11 @@ Until now I've written after I've finished a lab or been walked through a syntax
 
 So I just opened the lesson page for Tic Tac Toe Game Status and my heart trembled a little: a lab. Great. Then I read the overview:
 > We'll be building helper methods that introspect and report on the various game states in Tic Tac Toe, including if the game has been #won?, if the game board is #full?, if the game has been a #draw?, if the game is #over?, and finally who the #winner is.
+
 *Really?!* Solving one or two problems at a time isn't enough for you people anymore?! But *five*? 
 
 I grudgingly start to read through the lesson. I usually try to read through the lesson at least once before starting the lab, though if there seem to be a lot of parts I tend to build the lesson as I go. Scanning through this one I can tell I'll be reading and coding one step at a time. The first is the #win_combinations method and it doesn't look too scary! Yay! I quickly build the code:
+
 ```
 win_combinations =[
   [0, 1, 2],
