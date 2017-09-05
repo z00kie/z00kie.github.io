@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Tic Tac Toe Game Status"
-date:   2017-09-05 17:50:16 +0000
+title:  "Tic Tac Toe Game Status(Part One)"
+date:   2017-09-05 13:50:17 -0400
 ---
 
 
@@ -31,15 +31,7 @@ Aaaaand I failed the test.
      NameError:
        uninitialized constant WIN_COMBINATIONS
 ```
-I can see from the error message that for some reason it doesn't see 8 elements in my win_combinations array. Hmm... Do you see it there? At the top? The equals sign is right up against the bracket. If there's one thing I've learned about coding, it's that the individual syntax really like their space. I can relate, but I can't sympathize- just because I have a clingy four-year-old and a huge list of chores to do one right after the other and growing anxiety and panic doesn't mean I break dow- well. Fine. I *can* sympathize. This single space alone, however, does not fix the problem. 
-
-```
-1) ./lib/game_status.rb WIN_COMBINATIONS defines a constant WIN_COMBINATIONS with arrays for each win combination
-     Failure/Error: expect(WIN_COMBINATIONS.size).to eq(8)
-     NameError:
-       uninitialized constant WIN_COMBINATIONS
-```
-Looking at the message closer I see there's a name error. I forgot to put it in all caps. After muttering under my breath I fix this... YES. IT WORKED! *-Ahem-* I mean of course it worked. Right! 
+I can see from the error message that for some reason it doesn't see 8 elements in my win_combinations array. Hmm... Do you see it there? At the top? The equals sign is right up against the bracket. If there's one thing I've learned about coding, it's that the individual syntax really like their space. I can relate, but I can't sympathize- just because I have a clingy four-year-old and a huge list of chores to do one right after the other and growing anxiety and panic doesn't mean I break dow- well. Fine. I *can* sympathize. This single space alone, however, does not fix the problem. Looking at the message closer I see there's a name error. I forgot to put it in all caps. After muttering under my breath I fix this... YES. IT WORKED! *-Ahem-* I mean of course it worked. Right! 
 
 On to the next error message:
 ```
@@ -48,19 +40,26 @@ On to the next error message:
      NoMethodError:
        undefined method `won?' for #<RSpec::ExampleGroups::LibGameStatusRb::Won:0x000000023e6a50>
 ```
+
 This error is simple! Once I define the #won? method I read:
+
 ```
 1) ./lib/game_status.rb #won? returns false for an empty board
      Failure/Error: expect(won?(board)).to be_falsey
      ArgumentError:
        wrong number of arguments (given 1, expected 0)
 ```
+
 So there is an extra argument somewhere? What? Let's read through the lesson; I'm obviously missing something. Oh. I didn't read far enough along in the text. It appears that #won is supposed to accept the board as an argument and return true or false based on the game's status. After another quick fix:
-```def won?(board)
+
+```
+def won?(board)
 
 end
 ```
+
 the error says:
+
 ```
 1) ./lib/game_status.rb #won? returns an array of matching indexes for a top row win
      Failure/Error: expect(won?(board)).to match_array([0,1,2])
@@ -68,6 +67,7 @@ the error says:
 ```
 
 I realize that this entry is getting quite long, so let's do a quick code recap. This is the code I have so far:
+
 ```
 WIN_COMBINATIONS = [
   [0, 1, 2],
@@ -84,6 +84,7 @@ def won?(board)
 
 end
 ```
+
 and the error seems to say it expects me to convert my array but I didn't. Time to read further along in the text... 
 
 After reading through the rest of the #won? section, my brain feels sufficiently beaten to mush. I've now been working for almost 6 hours straight(not on this lab alone, mind you) on schoolwork and the words seem to hit my eyeballs and bounce off. I think it's time for a break! My daughter will be home from school soon anyway, so I'm going to grab that as an excuse to set things aside 'til tomorrow. 
