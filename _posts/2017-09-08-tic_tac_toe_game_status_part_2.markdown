@@ -173,7 +173,9 @@ It's like an hour later and I'm still staring at a blank #full? method. I did ha
 > Passes each element of the collection to the given block. The method returns true if the block never returns false or nil. 
 > -- apidock.com
 
+
 Awesome! So now I have an easy way to check if all the boxes are full at once! I love easy! My code now looks like:
+
 ```
 WIN_COMBINATIONS = [
   [0, 1, 2],
