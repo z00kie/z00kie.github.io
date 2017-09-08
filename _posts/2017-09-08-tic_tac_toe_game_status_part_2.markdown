@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Tic Tac Toe Game Status(Part 2)"
-date:   2017-09-08 14:05:57 +0000
+date:   2017-09-08 10:05:58 -0400
 ---
 
 
@@ -172,6 +172,7 @@ YAY. I MADE IT THROUGH THE FIRST METHOD. And bonus! I understand all of the work
 It's like an hour later and I'm still staring at a blank #full? method. I did have about a 15 minute break in there, so that's 45 minutes of wandering around in circles. I googled Ruby iterators and different keywords and came across different search/select iterators. None of them worked, however. Next I go back to the student "Ask a Question" section and found the same student as before chatting about the #full? method. He had used the iterator #all?, which I promptly googled:
 > Passes each element of the collection to the given block. The method returns true if the block never returns false or nil. 
 > -- apidock.com
+
 Awesome! So now I have an easy way to check if all the boxes are full at once! I love easy! My code now looks like:
 ```
 WIN_COMBINATIONS = [
