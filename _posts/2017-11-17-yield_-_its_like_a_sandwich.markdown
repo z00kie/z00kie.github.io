@@ -26,7 +26,9 @@ Something tickled at the back of my brain. I was starting to comprehend. It was 
 **OH. IT'S LIKE A SANDWICH. OKAY. YEAH!**
 
 So here is what my brain finally put together:
+
 ![](https://i.imgur.com/jWA3Cqg.png)
+
 
 ![](https://i.imgur.com/qB1dpcB.png)
 
