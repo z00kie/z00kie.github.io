@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Yield - It's Like a Sandwich"
-date:       2017-11-17 16:06:12 +0000
+date:       2017-11-17 11:06:14 -0500
 permalink:  yield_-_its_like_a_sandwich
 ---
 
@@ -26,9 +26,9 @@ Something tickled at the back of my brain. I was starting to comprehend. It was 
 **OH. IT'S LIKE A SANDWICH. OKAY. YEAH!**
 
 So here is what my brain finally put together:
-![](https://imgur.com/jWA3Cqg)
+![](https://i.imgur.com/jWA3Cqg.png)
 
-![](https://imgur.com/qB1dpcB)
+![](https://i.imgur.com/qB1dpcB.png)
 
 Ohhhhh! Right! So the first method is like the bun and the yielding method is like the meat. #yielding starts to run, but then pauses to grab the second block of code down there before continuing to the bottom of the sandwich. I know my brain is weird and needs some sort of visual reference to learn. Sometimes it's decorated boxes or bulletin boards(HTML and CSS) and sometimes it's sandwiches. What sorts of weird things does your mind come up with? I know I can't be the only one. Happy learning!
 
