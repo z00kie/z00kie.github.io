@@ -82,7 +82,9 @@ def self.color_count
   end
 	```
 	
+	
 	That is the last of it. We now have a fully-functioning dinosaur database that can keep track of two aspects(color and species) as well as give an accurate count of pretty much anything you ask for(color, species, Dinosaurs). For fun I've added a few extra functions as well. Here is my final program:
+	
 	
 	```
 	class Dinosaur
