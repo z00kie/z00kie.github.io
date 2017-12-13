@@ -81,76 +81,74 @@ def self.color_count
     dino_species
   end
 ```
-	
-	
-	That is the last of it. We now have a fully-functioning dinosaur database that can keep track of two aspects(color and species) as well as give an accurate count of pretty much anything you ask for(color, species, Dinosaurs). For fun I've added a few extra functions as well. Here is my final program:
-	
-	
-	```
-	class Dinosaur
-  attr_accessor :name, :color, :species
 
-  @@amount = 0
-  @@colors = []
-  @@species = []
+That is the last of it. We now have a fully-functioning dinosaur database that can keep track of two aspects(color and species) as well as give an accurate count of pretty much anything you ask for(color, species, Dinosaurs). For fun I've added a few extra functions as well. Here is my final program:
 
-  def initialize(name, color, type)
-    @name = name
-    @color = color
-    @species = type
-      @@amount += 1
-    @@colors << color
-    @@species << type
-  end
+```
+class Dinosaur
+attr_accessor :name, :color, :species
 
-  def self.count
-    @@amount
-  end
+@@amount = 0
+@@colors = []
+@@species = []
 
-  def self.colors
-    @@colors.uniq
-  end
+def initialize(name, color, type)
+	@name = name
+	@color = color
+	@species = type
+		@@amount += 1
+	@@colors << color
+	@@species << type
+end
 
-  def self.species
-    @@species.uniq
-  end
+def self.count
+	@@amount
+end
 
-  def self.color_count
-    dino_colors = {}
-    @@colors.each do |color|
-      if dino_colors[color]
-        dino_colors[color] += 1
-      else
-        dino_colors[color] = 1
-      end
-    end
-    dino_colors
-  end
+def self.colors
+	@@colors.uniq
+end
 
-  def self.species_count
-    dino_species = {}
-    @@species.each do |type|
-      if dino_species[type]
-        dino_species[type] += 1
-      else
-        dino_species[type] =1
-      end
-    end
-    dino_species
-  end
+def self.species
+	@@species.uniq
+end
 
-  def roar
-    puts "#{@name} rears its head back and lets out a soul-shattering roar."
-    puts "Your pants are wet."
-  end
+def self.color_count
+	dino_colors = {}
+	@@colors.each do |color|
+		if dino_colors[color]
+			dino_colors[color] += 1
+		else
+			dino_colors[color] = 1
+		end
+	end
+	dino_colors
+end
 
-  def eat(food)
-    puts "#{@name} gobbles the #{food} up hungrily."
-  end
+def self.species_count
+	dino_species = {}
+	@@species.each do |type|
+		if dino_species[type]
+			dino_species[type] += 1
+		else
+			dino_species[type] =1
+		end
+	end
+	dino_species
+end
 
-  def dance
-    ["#{@name} does the Cotton Eye Joe rather well. You are impressed.", "#{@name} trips over themselves trying to do an Irish jig.", "With a flourish, #{@name} spins around and moonwalks away."].sample
-  end
+def roar
+	puts "#{@name} rears its head back and lets out a soul-shattering roar."
+	puts "Your pants are wet."
+end
+
+def eat(food)
+	puts "#{@name} gobbles the #{food} up hungrily."
+end
+
+def dance
+	["#{@name} does the Cotton Eye Joe rather well. You are impressed.", "#{@name} trips over themselves trying to do an Irish jig.", "With a flourish, #{@name} spins around and moonwalks away."].sample
+end
 
 end
 ```
