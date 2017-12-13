@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Dinosaur_directory.rb - Class Variables and Methods Lab"
-date:       2017-12-13 17:41:16 +0000
+date:       2017-12-13 12:41:17 -0500
 permalink:  dinosaur_directory_rb_-_class_variables_and_methods_lab
 ---
 
