@@ -82,7 +82,8 @@ def self.color_count
   end
 ```
 
-And that's that! I added some extra methods just for fun, including a dance method. I wanted to make it have random returns. Using the .sample method on an array was the only thing I could find. I have no idea if there's a better way or not, but for now it works just fine.
+That is the last of it. We now have a fully-functioning dinosaur database that can keep track of two aspects(color and species) as well as give an accurate count of pretty much anything you ask for(color, species, Dinosaurs). For fun I’ve added a few extra functions as well. Here is my final program:
+
 
 ```
 class Dinosaur
@@ -166,4 +167,4 @@ opka = Dinosaur.new("Opkar", "Orange", "Tortoise")
 rosk = Dinosaur.new("Roski", "Pink", "T-Rex")
 ```
 
-Enjoy!
+For the #dance method, I wanted to make it have random returns. Using the .sample method on an array was the only thing I could find. I have no idea if there’s a better way or not, but for now it works just fine. Enjoy!
