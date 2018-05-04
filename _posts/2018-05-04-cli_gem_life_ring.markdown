@@ -144,7 +144,7 @@ I will most definitely not be publishing this gem. It's not because I don't thin
 * Is your data properly div'ed out on the web page? Does each category or section have it's own div? If not, it may be too difficult. Even if you've picked a page, know that you may not be able to stick with that page.
 * You know more than you think you do. When you don't, use pry! Binding.pry is a great way to view the values of different variables and methods, target the data you wish to scrape, and experiement with code. I've solved a lot of issues with pry alone.
 * When you get discouraged, ask for help. It doesn't matter how much you tell yourself you just aren't smart enough, how you'll never get it, or even how dumb and worthless you feel. More than likely the problem isn't because you're dumb. It's because it's something you just haven't become familair enough with yet or it's something that can't be done(or can't be done easily).
-* **You can doo this! Good luck!**
+* **You can do this! Good luck!**
 
 
 ### *My repository: [Life Ring](https://github.com/z00kie/life_ring)*
