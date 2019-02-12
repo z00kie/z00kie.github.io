@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Coding is like bashing my head against the wall... "
-date:       2019-02-12 20:10:25 +0000
+date:       2019-02-12 15:10:26 -0500
 permalink:  coding_is_like_bashing_my_head_against_the_wall
 ---
 
@@ -38,6 +38,9 @@ In the end my app doesn't have the features I originally planned but I am still 
 -------------------
 
 Notes: *I am going to link the horrid evidence here because I'm confident in my failures. Browse my steaming, post-apocalyptic mess of repositories in all their glory. However do not weep for me, friends. Know that I am in a much stronger, better place because of the beautiful destruction you see before you.*
+
 [authors_sketchbook repo](https://github.com/z00kie/authors_sketchbook)
+
 [fwitter lab cum authors_sketchbook repo](https://github.com/z00kie/sinatra-fwitter-group-project-v-000)
+
 [final authors_sketchbook2 repo](https://github.com/z00kie/authors_sketchbook2)
